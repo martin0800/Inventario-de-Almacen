@@ -1,17 +1,52 @@
 # 📦 StockControl
 ### Sistema de Gestión de Inventario de Almacén
 
+![Android](https://img.shields.io/badge/Plataforma-Android-green)
+![Kotlin](https://img.shields.io/badge/Lenguaje-Kotlin-purple)
+![SQLite](https://img.shields.io/badge/Base_de_datos-SQLite-blue)
+![Estado](https://img.shields.io/badge/Estado-Finalizado-success)
+
 ## 📋 Descripción
 
 StockControl es una aplicación móvil Android desarrollada para facilitar la administración y el control de inventarios de un almacén.
 
-El sistema permite registrar productos, controlar entradas y salidas de mercadería, consultar existencias y recibir alertas cuando los productos alcanzan su nivel mínimo de stock.
+Permite registrar productos, controlar entradas y salidas de mercadería, consultar existencias, administrar usuarios y recibir alertas cuando los productos alcanzan su nivel mínimo de stock.
 
-La aplicación cuenta con una interfaz intuitiva, almacenamiento local y opciones de personalización visual.
+Cuenta con una interfaz intuitiva, almacenamiento local mediante SQLite y opciones de personalización visual.
 
 ## 🎯 Objetivo del proyecto
 
 Desarrollar una aplicación móvil que permita gestionar eficientemente los productos y movimientos de inventario, manteniendo organizada y actualizada la información del almacén.
+
+## 📱 Capturas de pantalla
+
+### 1. Inicio de sesión
+
+![Inicio de sesión](capturas/01_inicio_sesion.png)
+
+### 2. Menú principal
+
+![Menú principal](capturas/02_menu_principal.png)
+
+### 3. Consulta de inventario
+
+![Inventario](capturas/03_inventario.png)
+
+### 4. Entradas de mercadería
+
+![Entradas](capturas/04_entradas.png)
+
+### 5. Salidas de mercadería
+
+![Salidas](capturas/05_salidas.png)
+
+### 6. Alertas de stock
+
+![Alertas](capturas/06_alertas.png)
+
+### 7. Historial de movimientos
+
+![Historial](capturas/07_historial.png)
 
 ## 🚀 Funcionalidades principales
 
@@ -32,13 +67,13 @@ Desarrollar una aplicación móvil que permita gestionar eficientemente los prod
 ### 📥 Entradas de mercadería
 - Registrar entradas de productos.
 - Actualizar automáticamente las existencias.
-- Guardar el movimiento en el historial.
+- Guardar los movimientos en el historial.
 
 ### 📤 Salidas de mercadería
 - Registrar salidas de productos.
 - Validar que exista stock suficiente.
 - Actualizar automáticamente las existencias.
-- Guardar el movimiento en el historial.
+- Guardar los movimientos en el historial.
 
 ### ⚠️ Alertas de inventario
 - Identificar productos con stock bajo.
@@ -57,12 +92,14 @@ Desarrollar una aplicación móvil que permita gestionar eficientemente los prod
 
 ## 🛠️ Tecnologías utilizadas
 
-- Android Studio.
-- Kotlin.
-- XML.
-- SQLite.
-- Git.
-- GitHub.
+| Tecnología | Utilización |
+|---|---|
+| Android Studio | Entorno de desarrollo |
+| Kotlin | Lenguaje de programación |
+| XML | Diseño de interfaces |
+| SQLite | Base de datos local |
+| Git | Control de versiones |
+| GitHub | Almacenamiento del repositorio |
 
 ## 🗄️ Almacenamiento de datos
 
@@ -74,23 +111,16 @@ La aplicación utiliza SQLite para almacenar localmente:
 
 Los datos permanecen almacenados aunque se cierre la aplicación.
 
-## 📱 Requisitos para ejecutar el proyecto
-
-- Android Studio.
-- JDK compatible con la versión de Gradle del proyecto.
-- Android SDK requerido por el proyecto.
-- Emulador Android o dispositivo físico compatible.
-
-## ⚙️ Instalación
+## ⚙️ Instalación y ejecución
 
 1. Clonar el repositorio desde GitHub.
 2. Abrir Android Studio.
-3. Seleccionar Open.
+3. Seleccionar **Open**.
 4. Buscar la carpeta del proyecto StockControl.
 5. Esperar la sincronización de Gradle.
-6. Ejecutar la aplicación en un emulador o dispositivo Android.
+6. Ejecutar la aplicación en un emulador o dispositivo Android compatible.
 
-## 📂 Estructura general
+## 📂 Estructura general del proyecto
 
 ```text
 StockControl/
@@ -99,10 +129,20 @@ StockControl/
 │   └── src/
 │       └── main/
 │           ├── java/com/example/stockcontrol/
-│           └── res/
-│               ├── layout/
-│               ├── values/
-│               └── values-night/
+│           ├── res/
+│           │   ├── layout/
+│           │   ├── values/
+│           │   └── values-night/
+│           └── AndroidManifest.xml
+│
+├── capturas/
+│   ├── 01_inicio_sesion.png
+│   ├── 02_menu_principal.png
+│   ├── 03_inventario.png
+│   ├── 04_entradas.png
+│   ├── 05_salidas.png
+│   ├── 06_alertas.png
+│   └── 07_historial.png
 │
 ├── gradle/
 ├── build.gradle.kts
@@ -110,20 +150,19 @@ StockControl/
 └── README.md
 ```
 
-## 🔗 Repositorio
+## 🔗 Repositorio en GitHub
 
-GitHub:
+[StockControl - GitHub](https://github.com/martin0800/StockControl)
 
-https://github.com/martin0800/StockControl
+## 👨‍💻 Información del proyecto
 
-## 👨‍💻 Autor
-
-Proyecto académico desarrollado como aplicación Android de gestión de inventario.
-
-**Nombre del proyecto:** StockControl  
+**Nombre:** StockControl  
+**Tipo:** Aplicación móvil Android  
 **Lenguaje principal:** Kotlin  
+**Diseño:** XML  
 **Base de datos:** SQLite  
-**Plataforma:** Android
+**Entorno de desarrollo:** Android Studio
 
 ---
-StockControl | Gestión inteligente de almacén
+
+**StockControl | Gestión inteligente de almacén**
