@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_fondo"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:padding="28dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="STOCK CONTROL"
+            android:textColor="@color/color_primario"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_marginTop="45dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="GESTIÓN DE INVENTARIO"
+            android:textColor="@color/color_texto_secundario"
+            android:textSize="14sp"
+            android:gravity="center"
+            android:layout_marginTop="8dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Bienvenido"
+            android:textColor="@color/color_texto"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_marginTop="55dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ingresa tus datos para continuar"
+            android:textColor="@color/color_texto_secundario"
+            android:textSize="14sp"
+            android:gravity="center"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="25dp"/>
+
+        <EditText
+            android:id="@+id/etCorreo"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:hint="Correo electrónico"
+            android:inputType="textEmailAddress"
+            android:textColor="@color/color_texto"
+            android:textColorHint="@color/color_texto_secundario"
+            android:padding="12dp"
+            android:backgroundTint="@color/color_primario"/>
+
+        <EditText
+            android:id="@+id/etContrasena"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:hint="Contraseña"
+            android:inputType="textPassword"
+            android:textColor="@color/color_texto"
+            android:textColorHint="@color/color_texto_secundario"
+            android:padding="12dp"
+            android:layout_marginTop="15dp"
+            android:backgroundTint="@color/color_primario"/>
+
+        <CheckBox
+            android:id="@+id/cbRecordar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Recordar mi usuario"
+            android:textColor="@color/color_texto"
+            android:layout_marginTop="12dp"/>
+
+        <Button
+            android:id="@+id/btnIniciarSesion"
+            android:layout_width="match_parent"
+            android:layout_height="58dp"
+            android:text="INICIAR SESIÓN"
+            android:textColor="#FFFFFF"
+            android:backgroundTint="#176B43"
+            android:layout_marginTop="20dp"/>
+
+        <Button
+            android:id="@+id/btnCrearCuenta"
+            android:layout_width="match_parent"
+            android:layout_height="58dp"
+            android:text="CREAR CUENTA"
+            android:textColor="#FFFFFF"
+            android:backgroundTint="#32865A"
+            android:layout_marginTop="12dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Al continuar aceptas nuestros términos y condiciones."
+            android:textColor="@color/color_texto_secundario"
+            android:textSize="12sp"
+            android:gravity="center"
+            android:layout_marginTop="25dp"/>
+
+    </LinearLayout>
+</ScrollView>

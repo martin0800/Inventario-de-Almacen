@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_fondo"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp"
+        android:gravity="center_horizontal">
+
+        <Button
+            android:id="@+id/btnVolverProducto"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:text="← VOLVER"
+            android:textColor="#FFFFFF"
+            android:backgroundTint="#455A64"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="STOCK CONTROL"
+            android:textColor="@color/color_primario"
+            android:textSize="27sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_marginTop="20dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="REGISTRO DE PRODUCTOS"
+            android:textColor="@color/color_texto"
+            android:textSize="21sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"/>
+
+        <EditText
+            android:id="@+id/etCodigoProducto"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:hint="Código del producto (SKU)"
+            android:inputType="text"
+            android:textColor="@color/color_texto"
+            android:textColorHint="@color/color_texto_secundario"
+            android:backgroundTint="@color/color_primario"
+            android:padding="12dp"/>
+
+        <EditText
+            android:id="@+id/etNombreProducto"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:hint="Nombre del producto"
+            android:inputType="textCapSentences"
+            android:textColor="@color/color_texto"
+            android:textColorHint="@color/color_texto_secundario"
+            android:backgroundTint="@color/color_primario"
+            android:padding="12dp"
+            android:layout_marginTop="12dp"/>
+
+        <EditText
+            android:id="@+id/etDescripcionProducto"
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            android:hint="Descripción del producto"
+            android:inputType="textMultiLine"
+            android:gravity="top"
+            android:textColor="@color/color_texto"
+            android:textColorHint="@color/color_texto_secundario"
+            android:backgroundTint="@color/color_primario"
+            android:padding="12dp"
+            android:layout_marginTop="12dp"/>
+
+        <EditText
+            android:id="@+id/etPrecioProducto"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:hint="Precio"
+            android:inputType="numberDecimal"
+            android:textColor="@color/color_texto"
+            android:textColorHint="@color/color_texto_secundario"
+            android:backgroundTint="@color/color_primario"
+            android:padding="12dp"
+            android:layout_marginTop="12dp"/>
+
+        <EditText
+            android:id="@+id/etCantidadProducto"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:hint="Cantidad disponible"
+            android:inputType="number"
+            android:textColor="@color/color_texto"
+            android:textColorHint="@color/color_texto_secundario"
+            android:backgroundTint="@color/color_primario"
+            android:padding="12dp"
+            android:layout_marginTop="12dp"/>
+
+        <EditText
+            android:id="@+id/etStockMinimo"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:hint="Stock mínimo"
+            android:inputType="number"
+            android:textColor="@color/color_texto"
+            android:textColorHint="@color/color_texto_secundario"
+            android:backgroundTint="@color/color_primario"
+            android:padding="12dp"
+            android:layout_marginTop="12dp"/>
+
+        <Button
+            android:id="@+id/btnGuardarProducto"
+            android:layout_width="match_parent"
+            android:layout_height="58dp"
+            android:text="GUARDAR PRODUCTO"
+            android:textColor="#FFFFFF"
+            android:backgroundTint="#176B43"
+            android:layout_marginTop="25dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="StockControl - Gestión de Inventario"
+            android:textColor="@color/color_texto_secundario"
+            android:textSize="12sp"
+            android:gravity="center"
+            android:layout_marginTop="25dp"
+            android:layout_marginBottom="20dp"/>
+
+    </LinearLayout>
+
+</ScrollView>

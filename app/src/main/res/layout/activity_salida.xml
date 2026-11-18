@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_fondo"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="SALIDAS DE MERCADERÍA"
+            android:textColor="#D32F2F"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_marginBottom="12dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Registra la salida de productos del almacén."
+            android:textColor="@color/color_texto_secundario"
+            android:textSize="15sp"
+            android:gravity="center"
+            android:layout_marginBottom="28dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Seleccionar producto"
+            android:textColor="@color/color_texto"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:layout_marginBottom="8dp" />
+
+        <Spinner
+            android:id="@+id/spProductoSalida"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:backgroundTint="@color/color_primario"
+            android:padding="8dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Cantidad que sale"
+            android:textColor="@color/color_texto"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:layout_marginTop="22dp"
+            android:layout_marginBottom="8dp" />
+
+        <EditText
+            android:id="@+id/etCantidadSalida"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:backgroundTint="@color/color_primario"
+            android:textColor="@color/color_texto"
+            android:textColorHint="@color/color_texto_secundario"
+            android:hint="Ingrese la cantidad"
+            android:inputType="number"
+            android:padding="12dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Motivo de la salida (opcional)"
+            android:textColor="@color/color_texto"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:layout_marginTop="22dp"
+            android:layout_marginBottom="8dp" />
+
+        <EditText
+            android:id="@+id/etObservacionSalida"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:backgroundTint="@color/color_primario"
+            android:textColor="@color/color_texto"
+            android:textColorHint="@color/color_texto_secundario"
+            android:gravity="top"
+            android:hint="Ejemplo: Venta de mercadería"
+            android:inputType="textCapSentences|textMultiLine"
+            android:padding="12dp" />
+
+        <Button
+            android:id="@+id/btnGuardarSalida"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:layout_marginTop="30dp"
+            android:backgroundTint="#C62828"
+            android:text="REGISTRAR SALIDA"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btnVolverSalida"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:layout_marginTop="12dp"
+            android:backgroundTint="#757575"
+            android:text="VOLVER"
+            android:textColor="#FFFFFF" />
+
+    </LinearLayout>
+
+</ScrollView>

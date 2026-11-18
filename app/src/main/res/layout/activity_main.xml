@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_fondo">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="STOCK CONTROL"
+            android:textSize="28sp"
+            android:textStyle="bold"
+            android:textColor="@color/color_primario"
+            android:gravity="center"
+            android:padding="12dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sistema de Gestión de Inventario"
+            android:textSize="16sp"
+            android:textColor="@color/color_texto_secundario"
+            android:gravity="center"
+            android:layout_marginBottom="25dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Panel de control"
+            android:textSize="21sp"
+            android:textStyle="bold"
+            android:textColor="@color/color_texto"
+            android:layout_marginBottom="12dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Bienvenido al sistema de inventario"
+            android:textSize="15sp"
+            android:textColor="@color/color_texto_secundario"
+            android:layout_marginBottom="20dp"/>
+
+        <Button
+            android:id="@+id/btnProductos"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="REGISTRAR PRODUCTOS"
+            android:backgroundTint="#176B43"
+            android:textColor="#FFFFFF"
+            android:layout_marginBottom="12dp"/>
+
+        <Button
+            android:id="@+id/btnInventario"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="CONSULTAR INVENTARIO"
+            android:backgroundTint="#176B43"
+            android:textColor="#FFFFFF"
+            android:layout_marginBottom="12dp"/>
+
+        <Button
+            android:id="@+id/btnEntradas"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="ENTRADAS DE MERCADERÍA"
+            android:backgroundTint="#32865A"
+            android:textColor="#FFFFFF"
+            android:layout_marginBottom="12dp"/>
+
+        <Button
+            android:id="@+id/btnSalidas"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="SALIDAS DE MERCADERÍA"
+            android:backgroundTint="#32865A"
+            android:textColor="#FFFFFF"
+            android:layout_marginBottom="12dp"/>
+
+        <Button
+            android:id="@+id/btnAlertas"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="ALERTAS DE STOCK"
+            android:backgroundTint="#D69B27"
+            android:textColor="#FFFFFF"
+            android:layout_marginBottom="12dp"/>
+
+        <Button
+            android:id="@+id/btnHistorial"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="HISTORIAL DE MOVIMIENTOS"
+            android:backgroundTint="#455A64"
+            android:textColor="#FFFFFF"
+            android:layout_marginBottom="12dp"/>
+
+        <Button
+            android:id="@+id/btnTema"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="CAMBIAR APARIENCIA"
+            android:backgroundTint="#37474F"
+            android:textColor="#FFFFFF"
+            android:layout_marginBottom="12dp"/>
+
+        <Button
+            android:id="@+id/btnCerrarSesion"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="CERRAR SESIÓN"
+            android:backgroundTint="#B3261E"
+            android:textColor="#FFFFFF"
+            android:layout_marginBottom="20dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="StockControl | Gestión inteligente de almacén"
+            android:textSize="12sp"
+            android:textColor="@color/color_texto_secundario"
+            android:gravity="center"
+            android:padding="15dp"/>
+
+    </LinearLayout>
+
+</ScrollView>
