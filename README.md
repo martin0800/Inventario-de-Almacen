@@ -135,14 +135,30 @@ StockControl/
 │           │   └── values-night/
 │           └── AndroidManifest.xml
 │
-├── capturas/
-│   ├── 01_inicio_sesion.png
-│   ├── 02_menu_principal.png
-│   ├── 03_inventario.png
-│   ├── 04_entradas.png
-│   ├── 05_salidas.png
-│   ├── 06_alertas.png
-│   └── 07_historial.png
+├──## 📱 Capturas de pantalla
+
+Las siguientes imágenes muestran las principales funcionalidades de StockControl.
+
+### 1. Inicio de sesión
+<img src="capturas/01_inicio_sesion.png" width="220">
+
+### 2. Menú principal
+<img src="capturas/02_menu_principal.png" width="220">
+
+### 3. Consulta de inventario
+<img src="capturas/03_inventario.png" width="220">
+
+### 4. Entradas de mercadería
+<img src="capturas/04_entradas.png" width="220">
+
+### 5. Salidas de mercadería
+<img src="capturas/05_salidas.png" width="220">
+
+### 6. Alertas de stock
+<img src="capturas/06_alertas.png" width="220">
+
+### 7. Historial de movimientos
+<img src="capturas/07_historial.png" width="220">
 │
 ├── gradle/
 ├── build.gradle.kts
